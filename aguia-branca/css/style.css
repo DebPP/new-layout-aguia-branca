@@ -1,0 +1,644 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif !important;
+  background-color: #5c88da !important;
+}
+
+input {
+  font-family: "Roboto", sans-serif !important;
+}
+
+.container-header {
+  margin-right: auto;
+  margin-left: auto;
+  padding: 15px;
+  height: 64px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: #5c88da;
+  z-index: 99;
+}
+
+.container-header .container-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container-header .container-menu img {
+  height: 20px;
+}
+
+.container-header .container-menu i {
+  color: white;
+}
+
+.container-body {
+  margin-top: 125px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.container-body .container-pesquisa {
+  padding: 20px;
+  background: #ffffff;
+  -webkit-box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  position: relative;
+  top: -37px;
+  width: 100%;
+}
+
+.container-body .container-pesquisa .container-input {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.container-body .form-data {
+  padding: 12px 0 0 28px;
+}
+
+.form-container {
+  padding-left: 30px;
+  margin-bottom: 10px;
+}
+
+.form-container input {
+  margin-bottom: 10px;
+}
+
+.icons-location {
+  position: absolute;
+  top: 20px;
+}
+
+.icons-location i {
+  color: #0f2054;
+}
+
+.dashed {
+  border: 1px dashed #0f2054;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  width: 30px;
+  margin: 6px 0px 5px -10px;
+  position: absolute;
+}
+
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.justify-content-between {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.justify-content-around {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.align-items-start {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.w-100 {
+  width: 100%;
+}
+.w-550 {
+  width: 50%;
+}
+.m-0{
+  margin: 0 !important;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mt-5 {
+  margin-top: 5px;
+}
+
+.mb-5 {
+  margin-bottom: 5px;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mr-10{
+  margin-right: 10px;
+}
+
+input[type="text"] {
+  border: 0 none;
+  -webkit-box-shadow: 0 0 0 0;
+          box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+input:focus {
+  border: 0 none;
+  -webkit-box-shadow: 0 0 0 0 !important;
+          box-shadow: 0 0 0 0 !important;
+  border-bottom: 1px solid black;
+}
+.form-control:focus{
+  border: none !important;
+}
+.input-group-addon {
+  padding: 0 !important;
+  background-color: transparent !important;
+  border: 0 none !important;
+}
+
+.btn {
+  font-weight: bold !important;
+  background-color: #2c62c6 !important;
+  border-color: transparent !important;
+}
+
+.btn:focus {
+  outline: 0 none !important;
+  background-color: #0f2054 !important;
+}
+
+.promo {
+  height: 318px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+}
+
+.promo .url-slide-1 {
+  background-image: url("https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2021/11/fundo-RDMD-SESC-SENAC.jpg?w=876&h=484&crop=1");
+}
+
+.promo .url-slide-2 {
+  background-image: url("https://canaisdigitaissitebr-wordpress.azurewebsites.net/wp-content/uploads/2021/01/praca_liberdade.jpg");
+}
+
+.promo .url-slide-3 {
+  background-image: url("https://cognatis.com.br/wp-content/uploads/2021/01/Sao-Paulo-467-banner-1.jpg");
+}
+
+.promo .url-slide-4 {
+  background-image: url("https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-curitiba-capa2019-02.jpg");
+}
+
+.promo .imagem {
+  background-repeat: round;
+  width: 100%;
+  height: 284px;
+}
+
+.price-container {
+  background-color: #5c88da;
+  color: #ffffff;
+  position: relative;
+  width: 114px;
+  height: 85px;
+  top: 23px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 29px 11px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.price-container #value {
+  font-size: 13px;
+}
+
+.price-container #value b {
+  font-size: 48px;
+}
+
+.destino-container {
+  background-color: #5c88da;
+  width: 237px;
+  height: 90px;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  margin-bottom: 25px;
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  padding: 15px;
+  position: absolute;
+}
+
+.icons-destino {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.icons-destino i {
+  margin-right: 10px;
+  color: #0f2054;
+}
+
+.entrar-user {
+  color: #ffffff;
+}
+
+.entrar-user i {
+  margin-right: 10px;
+}
+
+.container-slide {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.slider {
+  width: 300px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.slides {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -ms-scroll-snap-type: x mandatory;
+      scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+
+.slides::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+.slides::-webkit-scrollbar-thumb {
+  background: #0f2054;
+  border-radius: 10px;
+}
+
+.slides::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.slides > div {
+  scroll-snap-align: start;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  width: 300px;
+  height: 300px;
+  margin-right: 50px;
+  border-radius: 10px;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container-slide img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.slider > a {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 1.5rem;
+  height: 1.5rem;
+  background: white;
+  text-decoration: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 50%;
+  margin: 0 0 0.5rem 0;
+  position: relative;
+}
+
+.slider > a:active {
+  top: 1px;
+}
+
+.slider > a:focus {
+  background: #000;
+}
+
+.container-slide {
+  height: 100%;
+  overflow: hidden;
+}
+
+.container-slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#main-menu {
+  background-color: #2e3039;
+}
+
+.list-group-item {
+  background-color: #2e3039;
+  border: none;
+  margin-bottom: 10px;
+}
+
+a.list-group-item {
+  color: #818181;
+}
+
+a.list-group-item:hover,
+a.list-group-item:focus {
+  background-color: #ffff;
+}
+
+a.list-group-item.active,
+a.list-group-item.active:hover,
+a.list-group-item.active:focus {
+  color: #818181;
+  background-color: #ffff;
+  border: none;
+  margin-bottom: 3px !important;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%) !important;
+  border-radius: 4px !important;
+  font-weight: bold;
+}
+
+.list-group-item:first-child,
+.list-group-item:last-child {
+  border-radius: 0;
+}
+
+.list-group-level1 .list-group-item {
+  padding-left: 30px;
+}
+
+.list-group-level2 .list-group-item {
+  padding-left: 60px;
+}
+
+.fale-conosco {
+  background-color: #2C62C6;
+  padding: 15px;
+}
+
+.fale-conosco h3 {
+  text-align: center;
+  color: #ffff;
+  border-bottom: 1px solid;
+  padding: 8px;
+}
+
+.redes-sociais i {
+    font-size: 40px;
+    color: #ffffff;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.links li{
+    list-style-type:none;
+    color: #ffff;
+    font-size: 15px;
+    cursor: pointer;
+  
+}
+
+.title{
+  text-align: center;
+  margin: 0;
+}
+
+.background-desktop{
+  width: 100%;
+  height: 528px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container-promo {
+  background-color: #ffffff;
+  padding: 25px;
+}
+
+.container-infos span{
+  padding: 10px;
+  color: black;
+  font-size: 18px;
+  background-color: #9f9f9f30;
+  margin-bottom: 5px;
+  font-weight: 500;
+  white-space: normal;
+}
+
+.border {
+  border-bottom: 1px solid #97979726;
+}
+
+.container-conheca{
+  color: #ffff;
+  font-size: 18px;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.rodape{
+  padding: 10px;
+  height: 120px;
+  color: #ffff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rodape img{
+  height: 20px;
+}
+
+.rodape span{
+  width: 50%;
+}
+
+@media only screen and (max-width: 768px)  {
+  .container-slide-desktop{
+    display: none;
+  }
+  .container-slide{
+    display: flex;
+  }
+  .banner-mobile{
+    background-image: url("../img/mobile_ab.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 299px;
+
+  }
+  .container-body{
+    background-color: #ffff;
+    background-image: none;
+    margin-top: 115px;
+  }
+} 
+/* 
+/* mobile */
+@media only screen and (max-width: 600px) {
+  .container-slide{
+    display: flex;
+  }
+  .container-slide-desktop{
+    display: none;
+  }
+  .banner-mobile{
+    background-image: url("../img/mobile_ab.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 299px;
+
+  }
+
+  .rodape{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+} 
+
+@media only screen and (min-width: 768px) {
+  .container-slide{
+    display: none;
+  }
+  .container-slide-desktop{
+    display: flex;
+  }
+
+  .container-slide{
+    display: flex;
+  }
+  .container-slide-desktop{
+    display: none;
+  }
+
+  .container-body{
+    background-image: url("../img/desktop_ab1.png");
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+/* desktop acima de 1000 widht */
+@media only screen and (min-width: 1000px) {
+  .container-slide{
+    display: none;
+  }
+  .container-slide-desktop{
+    display: flex;
+  }
+
+  .container-body{
+    background-image: url("../img/desktop_ab1.png");
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media only screen and (min-width: 1760px) {
+  .container-main{
+    margin: 0 330px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
